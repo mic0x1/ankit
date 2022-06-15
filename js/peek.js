@@ -21,7 +21,7 @@ $(document).ready(function(){
 
 function intialContent(){
     var List = shuffleArray(peekContent["list"]);
-    console.log(List);
+    $("#content-box .content").prepend(peekContent.info);
     var temp;
     for(let i = 0; i < List.length; i++){
         temp = List[i].replace(/\[/g,"<peek>").replace(/\]/g,"</peek>");
