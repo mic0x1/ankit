@@ -1,0 +1,132 @@
+*{
+    &.bg-ct-white{
+        background-color: black;
+        *{
+            color: white;
+        }
+        a{
+            color: white;
+        }
+    }
+    &.bg-ct-black{
+        background-color: black;
+        *{
+            color: black;
+        }
+        a{
+            color: var(--link-light);
+        }
+    }
+    &.bg-dark{
+        background-color: black;
+        *{
+            color: white;
+        }
+        a{
+            color: var(--link-light);
+        }
+    }
+    &.bg-light{
+        background-color: var(--gray-6);
+        color: black;
+        *:not(button){
+            color: black;
+        }
+        a{
+            color: var(--link-light);
+        }
+        &.gradient{
+            background: linear-gradient(to bottom right, var(--gray-6), white);
+        }
+    }
+    &.bg-red{
+        background-color: var(--red);
+        *{
+            color: white;
+        }
+        a{
+            color: var(--link-light);
+        }
+        &.gradient{
+            background: linear-gradient(to bottom right, var(--red-dark), var(--red-light));
+        }
+    }
+    &.bg-orange{
+        background-color: var(--orange);
+        *{
+            color: white;
+        }
+        a{
+            color: var(--link-light);
+        }
+        &.gradient{
+            background: linear-gradient(to bottom right, var(--orange-dark), var(--orange-light));
+        }
+    }
+    &.bg-yellow{
+        background-color: var(--yellow);
+        *{
+            color: white;
+        }
+        a{
+            color: var(--link-light);
+        }
+        &.gradient{
+            background: linear-gradient(to bottom right, var(--yellow-dark), var(--yellow-light));
+        }
+    }
+    &.bg-green{
+        background-color: var(--green);
+        h1,h2,p{
+            color: white;
+        }
+        a{
+            color: white;
+        }
+        &.gradient{
+            background: linear-gradient(to bottom right, var(--green-dark), var(--green-light));
+        }
+    }
+    &.bg-mint{
+        background-color: var(--mint);
+        *{
+            color: white;
+        }
+        &.gradient{
+            background: linear-gradient(to bottom right, var(--mint-dark), var(--mint-light));
+        }
+    }
+    &.bg-teal{
+        background-color: var(--teal);
+    }
+    &.bg-cyan{
+        background-color: var(--cyan);
+        *{
+            color: white;
+        }
+        &.gradient{
+            background: linear-gradient(to bottom right, var(--cyan-dark), var(--cyan-light));
+        }
+    }
+    &.bg-blue{
+        background-color: var(--blue);
+        *,a{
+            color: white;
+        }
+        &.gradient{
+            background: linear-gradient(to bottom right, var(--blue-dark), var(--blue-light));
+        }
+    }
+    &.bg-indigo{
+        background-color: var(--indigo);
+    }
+    &.bg-purple{
+        background-color: var(--purple);
+    }
+    &.bg-pink{
+        background-color: var(--pink);
+    }
+    &.bg-brown{
+        background-color: var(--brown);
+    }
+}

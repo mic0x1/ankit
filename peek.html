@@ -1,0 +1,26 @@
+---
+layout: default
+title: Ankit Peek
+---
+<style>
+    main{
+        padding: 12px;
+    }
+</style>
+
+<h1 style="text-align: center;" id="page-title">Ankit Peek</h1>
+<script src="/js/peek.js"></script>
+<div id="id-request-wrap">
+    <section class="box">
+        <h2 class="title">請輸入 ID</h2>
+        <input type="text" class="input" id="id-inputer" placeholder="請輸入 ID" value="">
+        <button onclick="window.location.replace('/peek/?id=' + $('#id-inputer').val());" id="challenge-submit">前往</button>
+    </section>
+</div>
+
+<div id="peek-content-page-wrap">
+    <section class="box" id="content-box">
+        <h2 class="title"></h2>
+        <div class="content"><ol></ol></div>
+    </section>
+</div>

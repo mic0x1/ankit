@@ -1,0 +1,16 @@
+site-name: "Ankit"
+baseurl: ""
+
+beacon:
+  version: 1.2
+
+timezone: Asia/Shanghai
+
+plugins:
+  - jekyll-toc
+  - jekyll-last-modified-at
+  - jekyll-redirect-from
+
+sass:
+  sass_dir: _sass
+  style: :compressed

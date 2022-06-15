@@ -1,0 +1,12 @@
+---
+permalink: /info/
+---
+<h1>Info Page</h1>
+<h2>Site Time</h2>
+{{ site.time | date: '%Y/%m/%d %H-%M-%S' }}
+<h2>Site Timezone</h2>
+{{ site.timezone }}
+<hr style="margin: 1em 0;">
+<b>Powered by Beacon, a jekyll starter by <a href="https://github.com/mic0x1/">mic0x1</a>.</b>
+<br>
+<i>Beacon Version: {{ site.beacon.version }}</i>
